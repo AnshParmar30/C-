@@ -8,3 +8,4 @@ int main(int argc, char const *argv[])
     cout<<"Enter the value of A : ";
     cin>> b;
     return 0;
+}
