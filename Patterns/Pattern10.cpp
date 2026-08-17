@@ -1,9 +1,9 @@
-// 1 
-// 2 2 
-// 3 3 3 
-// 4 4 4 4
-// 5 5 5 5 5
 
+// * * * * * 
+// * * * *
+// * * *
+// * * 
+// * 
 
 // #include<bits/stdc++.h>
 // using namespace std;
@@ -16,8 +16,8 @@
 //     // cin>> col;
 //     for (int i = 1; i <= row; i++)
 //     {
-//         for(int j = 1; j <= i; j++){
-//         cout<< i <<" ";
+//         for(int j = row; j >= i; j--){
+//         cout<< "*" <<" ";
 //         }
 //         cout<< endl; 
 //     }
@@ -25,26 +25,24 @@
 //     return 0;
 // }
 
-// a
-// b b 
-// c c c 
-// d d d d
-// e e e e e
+// 1 2 3 4 5 
+// 1 2 3 4 
+// 1 2 3 
+// 1 2 
+// 1 
 
 #include<bits/stdc++.h>
 using namespace std;
 int main(int argc, char const *argv[])
 {
-    char row;
-    int col;
+    int row;
     cout<<"Enter the row :";
     cin>> row;
-    // cout<<"Enter the col : ";
-    // cin>> col;
-    for (char i = 'a'; i <= row; i++)
+    for (int i = 0; i < row; i++)
     {
-        for(int j = 'a'; j <= i; j++){
-        cout<< i <<" ";
+         int count = row -i;
+        for(int j = 1 ; j <= count; j++){
+        cout<< j <<" ";
         }
         cout<< endl; 
     }
