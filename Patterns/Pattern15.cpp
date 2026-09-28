@@ -20,10 +20,13 @@ int main(int argc, char const *argv[])
         }
         for(char k ='A';k<=i;k++)
         {
-        cout<< k ;
+        cout<< k;
         }
+        cout<<" ";
         cout<< endl;
     }
     return 0;
 }
+
+
 

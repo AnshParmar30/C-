@@ -31,23 +31,22 @@
 // d d d d
 // e e e e e
 
-#include<bits/stdc++.h>
-using namespace std;
-int main(int argc, char const *argv[])
-{
-    char row;
-    int col;
-    cout<<"Enter the row :";
-    cin>> row;
-    // cout<<"Enter the col : ";
-    // cin>> col;
-    for (char i = 'a'; i <= row; i++)
-    {
-        for(int j = 'a'; j <= i; j++){
-        cout<< i <<" ";
-        }
-        cout<< endl; 
-    }
-    
-    return 0;
-}
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(int argc, char const *argv[])
+// {
+//     char row;
+//     int col;
+//     cout<<"Enter the row :";
+//     cin>> row;
+//     // cout<<"Enter the col : ";
+//     // cin>> col;
+//     for (char i = 'a'; i <= row; i++)
+//     {
+//         for(int j = 'a'; j <= i; j++){
+//         cout<< i <<" ";
+//         }
+//         cout<< endl; 
+//     }
+//     return 0;
+// }
